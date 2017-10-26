@@ -1,0 +1,57 @@
+body{
+    
+}
+
+.valign-wrapper{
+    display: -webkit-box !important;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.opacity-1{
+    opacity: 0.7;
+}
+
+.carousel .indicators .indicator-item {
+    height: 14px;
+    width: 14px;
+    background-color: rgb(0, 0, 0);
+}    
+
+.carousel .indicators .indicator-item.active {
+    background-color: rgb(255, 10, 10);
+}
+
+.carousel-item{
+    background-repeat: repeat-x;
+    background-origin: content-box;
+}
+
+.photo-1{
+    background-image: url('../images/1.jpg');
+}
+
+.photo-2{
+    background-image: url('../images/2.jpg');
+}
+
+.photo-3{
+    background-image: url('../images/3.jpg');
+}
+
+.photo-4{
+    background-image: url('../images/4.jpg');
+}
+
+.photo-5{
+    background-image: url('../images/5.jpg');
+}
+
+.photo-6{
+    background-image: url('../images/6.jpg');
+}
